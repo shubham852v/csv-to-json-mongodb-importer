@@ -1,0 +1,14 @@
+{
+  "name": "csv-to-json-importer",
+  "version": "1.0.0",
+  "description": "CSV to JSON importer for Kelp coding challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.19.3"
+  }
+}

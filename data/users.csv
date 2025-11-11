@@ -1,0 +1,11 @@
+name.firstName,name.lastName,age,address.line1,address.line2,address.city,address.state,gender
+Rohit,Prasad,35,A-563 Rakshak Society,New Pune Road,Pune,Maharashtra,male
+Sanya,Mehta,22,12 MG Road,Central Avenue,Mumbai,Maharashtra,female
+Arjun,Verma,18,45 Civil Lines,Near Market,Delhi,Delhi,male
+Priya,Sharma,28,9 Park Street,Opp Mall,Kolkata,West Bengal,female
+Manoj,Kumar,65,23 Old Town,Station Road,Chennai,Tamil Nadu,male
+Sneha,Rao,42,88 MG Road,Tech Park,Bengaluru,Karnataka,female
+work.company.name,work.company.location.city,work.position.title
+TechCorp,Pune,Engineer
+
+
