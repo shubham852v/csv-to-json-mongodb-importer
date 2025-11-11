@@ -27,17 +27,21 @@ A Node.js + Express application that reads a CSV file, manually parses it into J
 ---
 
 2️⃣ Install Dependencies
+
 npm install
 
+---
 
 3️⃣ Configure Environment Variables
 
-Create a .env file in the root directory:
+Create a .env file in the root directory
 
 PORT=3000
 CSV_PATH=./data/users.csv
 MONGO_URI=mongodb://localhost:27017/csv_importer
-BATCH_SIZE=1000
+BATCH_SIZE=1000\
+
+---
 
 📂 Folder Structure
 csv-to-json-mongodb-importer/
@@ -53,8 +57,13 @@ csv-to-json-mongodb-importer/
 ├── .env.example
 └── README.md
 
+---
+
 ▶️ Run the Server
+
 node app.js
+
+---
 
 📤 Import CSV Data
 
@@ -85,13 +94,21 @@ Links             : {}
 ParsedHtml        : mshtml.HTMLDocumentClass
 RawContentLength  : 82
 
+---
+
 📊 Age Distribution Example
+
 Age Group	% Distribution
+
 <20	16.7%
+
 20–40	50.0%
+
 40–60	16.7%
+
 >60	16.7%
 
+---
 
 MongoDB Document
 {
@@ -106,6 +123,8 @@ MongoDB Document
     "gender": "female"
   }
 }
+
+---
 
 
 🧾 License
